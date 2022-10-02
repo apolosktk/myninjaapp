@@ -1,0 +1,88 @@
+
+APOLOS KTK@DESKTOP-T3UQ1NT MINGW64 ~
+$ cd ~/desktop
+bash: cd: $'\302\233\302\233~/desktop': No such file or directory
+
+APOLOS KTK@DESKTOP-T3UQ1NT MINGW64 ~
+$ cd ~/Desktop
+bash: cd: $'\302\233\302\233~/Desktop': No such file or directory
+
+APOLOS KTK@DESKTOP-T3UQ1NT MINGW64 ~
+cd users
+bash: cd: users: No such file or directory
+
+APOLOS KTK@DESKTOP-T3UQ1NT MINGW64 ~
+$ cd desktop
+
+APOLOS KTK@DESKTOP-T3UQ1NT MINGW64 ~/desktop (master)
+$ mkdir auwalproject
+
+APOLOS KTK@DESKTOP-T3UQ1NT MINGW64 ~/desktop (master)
+$ cd auwalproject
+
+APOLOS KTK@DESKTOP-T3UQ1NT MINGW64 ~/desktop/auwalproject
+$ git init
+Initialized empty Git repository in C:/Users/APOLOS KTK/Desktop/auwalproject/.git/
+
+APOLOS KTK@DESKTOP-T3UQ1NT MINGW64 ~/desktop/auwalproject (master)
+$ s
+bash: s: command not found
+
+APOLOS KTK@DESKTOP-T3UQ1NT MINGW64 ~/desktop/auwalproject (master)
+$ ls
+apolos.html  index.html  reg.html
+
+APOLOS KTK@DESKTOP-T3UQ1NT MINGW64 ~/desktop/auwalproject (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        apolos.html
+        index.html
+        reg.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+APOLOS KTK@DESKTOP-T3UQ1NT MINGW64 ~/desktop/auwalproject (master)
+$ git add .
+
+APOLOS KTK@DESKTOP-T3UQ1NT MINGW64 ~/desktop/auwalproject (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   apolos.html
+        new file:   index.html
+        new file:   reg.html
+
+
+APOLOS KTK@DESKTOP-T3UQ1NT MINGW64 ~/desktop/auwalproject (master)
+$ git commit -m "added 3 files"
+[master (root-commit) 9d2ecfe] added 3 files
+ 3 files changed, 3 insertions(+)
+ create mode 100644 apolos.html
+ create mode 100644 index.html
+ create mode 100644 reg.html
+
+APOLOS KTK@DESKTOP-T3UQ1NT MINGW64 ~/desktop/auwalproject (master)
+$ git remote add origin https://github.com/apolosktk/myninjaapp.git
+
+APOLOS KTK@DESKTOP-T3UQ1NT MINGW64 ~/desktop/auwalproject (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (5/5), 369 bytes | 92.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/apolosktk/myninjaapp.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+APOLOS KTK@DESKTOP-T3UQ1NT MINGW64 ~/desktop/auwalproject (master)
